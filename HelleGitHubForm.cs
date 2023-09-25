@@ -20,6 +20,12 @@ namespace HelloGitHubSurVs
         private void helloGitHubButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello Github")
-;        }
+
+;       }
+
+        private void HelleGitHubForm_Load(object sender, EventArgs e)
+        {
+            helloGitHubButton.BackColor = Color.Aqua;
+        }
     }
 }

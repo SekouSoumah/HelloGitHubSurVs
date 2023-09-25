@@ -50,6 +50,7 @@
             this.Name = "HelleGitHubForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GitHub et Git sur visual studio";
+            this.Load += new System.EventHandler(this.HelleGitHubForm_Load);
             this.ResumeLayout(false);
 
         }
